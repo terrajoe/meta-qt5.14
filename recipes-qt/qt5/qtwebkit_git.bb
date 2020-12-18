@@ -16,6 +16,7 @@ SRC_URI += "\
     file://0002-Fix-build-with-non-glibc-libc-on-musl.patch \
     file://0003-Fix-build-bug-for-armv32-BE.patch \
     file://0004-PlatformQt.cmake-Do-not-generate-hardcoded-include-p.patch \
+    file://0005-fix-build-with-icu-68.1.patch \
 "
 
 inherit cmake_qt5 perlnative pythonnative
